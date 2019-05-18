@@ -1,6 +1,7 @@
-import axios from "axios" 
+// import axios from "axios" 
 
 
-export default axios.create({
-    baseURL: "https://api.exchangeratesapi.io/",
-});
+// export default axios.create({
+//     baseURL: "http://data.fixer.io/api", 
+    
+// });
