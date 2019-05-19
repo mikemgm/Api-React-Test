@@ -1,10 +1,19 @@
 import React from "react"; 
 
 
-const CurrencyList = (props) => {
-    console.log(props.currencies)
+const CurrencyList = (props) => { 
+    // const currencies = props.currencies.map( (currencies ) =>{
+    //     return <h1>{currencies.rates}</h1> 
+
+      
+    // });
+    
+    // console.log(currencies);
+    
+
+
     return(
-        <div>Currency List</div>
+        <div> CURRENCY RESULTS </div>
     )
 };
 
