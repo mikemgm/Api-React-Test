@@ -9,7 +9,7 @@ class App extends Component {
     state = { currencies: [] }
     
         onSearchSubmit = async (term) => {
-            const response = await axios.get("https://api.exchangeratesapi.io/latest?symbols=USD,GBP", {
+            const response = await axios.get("https://api.exchangeratesapi.io/latest?symbols=GBP", {
                 params: { rates: term }
             }); 
     
